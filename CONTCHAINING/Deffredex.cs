@@ -7,7 +7,7 @@ class Program
 
         // LINQ क्वेरी बनाना: 5 से बड़े नंबर निकालने के लिए
         var query = from num in numbers
-                    where num ==5
+                    where num >5
                     select num;
         Console.WriteLine("क्वेरी बन गई, लेकिन अभी execute नहीं हुई।");
 
